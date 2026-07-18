@@ -5,7 +5,7 @@ description: 用大白话讲清楚什么是图形 API、主流的 OpenGL、Vulka
 ---
 
 :::tip 专有名词
-本文涉及到的专有名词：[SoC](/docs/%E6%89%8B%E6%9C%BA%E5%B0%8F%E7%99%BD%E5%BF%85%E7%9C%8B/%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/soc%E4%BB%8B%E7%BB%8D) 、[GPU](/docs/%E6%89%8B%E6%9C%BA%E5%B0%8F%E7%99%BD%E5%BF%85%E7%9C%8B/%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/cpu) 、[Android](window:/term/Android) 、[Windows](window:/term/Windows) 、[Linux](window:/term/Linux)
+本文涉及到的专有名词：[SoC](/docs/%E6%89%8B%E6%9C%BA%E5%B0%8F%E7%99%BD%E5%BF%85%E7%9C%8B/%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/soc%E4%BB%8B%E7%BB%8D) 、[GPU](window:/term/GPU) 、[Android](window:/term/Android) 、[Windows](window:/term/Windows) 、[Linux](window:/term/Linux)
 :::
 
 # 什么是图形 API？

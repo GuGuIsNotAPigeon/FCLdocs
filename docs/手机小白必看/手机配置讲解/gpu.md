@@ -5,14 +5,14 @@ description: 用大白话讲清楚手机 GPU 是什么、它和 CPU 的区别、
 ---
 
 :::tip 专有名词
-本文涉及到的专有名词：[CPU](/docs/%E6%89%8B%E6%9C%BA%E5%B0%8F%E7%99%BD%E5%BF%85%E7%9C%8B/%E6%89%8B%E6%9C%BA%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/cpu) 、 [UI](https://baike.baidu.com/item/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/65211464) 、 [独立显卡](https://baike.baidu.com/item/%E7%8B%AC%E7%AB%8B%E6%98%BE%E5%8D%A1/6318103)
+本文涉及到的专有名词：[CPU](window:/term/CPU) 、 [独立显卡](https://baike.baidu.com/item/%E7%8B%AC%E7%AB%8B%E6%98%BE%E5%8D%A1/6318103)
 :::
 
 # GPU 介绍
 
 ## GPU 是什么？
 
-**GPU** 全称 **Graphics Processing Unit**，中文叫「**图形处理器**」。它是 SoC 里专门负责「画图」的部分——游戏画面、动画、视频解码、UI 滑动，凡是和「显示」有关的，基本都归 GPU 管。
+**GPU** 全称 **Graphics Processing Unit**，中文叫「**图形处理器**」。它是 SoC 里专门负责「画图」的部分——游戏画面、动画、视频解码、[UI](https://baike.baidu.com/item/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1/65211464)滑动，凡是和「显示」有关的，基本都归 GPU 管。
 
 打个比方：CPU 是「总经理」，什么都要管一点，但每件事都得一件一件做；GPU 是「美工部」，里面有几百上千个小工，每个小工只会画一个像素，但它们能**同时**画，所以画图特别快。
 

@@ -66,7 +66,7 @@ Linux 有很多版本，但版本之间并不完全兼容。能在 Ubuntu 上装
 
 [brief]
 
-Linux 是一种免费的操作系统，和 Windows、macOS 并列。它的特点是"一个核心，多种版本"——核心代码公开，任何人都能拿来改造，所以诞生了 Ubuntu、Debian、CentOS 等五花八门的版本。
+Linux 是一种免费的操作系统，它的特点是"一个核心，多种版本"——核心代码公开，任何人都能拿来改造，所以诞生了 Ubuntu、Debian、CentOS 等五花八门的版本。
 
 它和 Windows 最大的不同：Windows 一家独大、界面统一；Linux 版本众多、有的免费、有的面向服务器、有的面向新手。
 
