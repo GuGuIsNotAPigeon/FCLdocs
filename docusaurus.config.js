@@ -6,7 +6,11 @@ module.exports = {
   url: 'https://fcldocs.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'Fcl-community',
   projectName: 'FCLdocs',
@@ -26,7 +30,10 @@ module.exports = {
           // 添加以下配置
           remarkPlugins: [remarkWindowPlugin],
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+        },
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -34,6 +41,25 @@ module.exports = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: "/docs",
+        blogRouteBasePath: "/blog",
+        language: ["zh" , "en"],
+        hashed: true,
+        highlightSearchTermsOnTargetPage: false,
+        searchResultLimits: 10,
+        searchResultContextMaxLength: 50,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+      },
+    ],
+  ],
 
   themeConfig: {
     colorMode: {
@@ -41,11 +67,31 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'FCL教程',
+      title: 'FCL 教程',
       items: [
         {
           to: '/docs',
-          label: 'Docs',
+          label: 'FCL 教程文档',
+          position: 'left',
+        },
+        {
+          to: 'https://github.com/FCL-Team/FoldCraftLauncher',
+          label: 'FCL 代码仓库',
+          position: 'left',
+        },
+        {
+          to: 'https://foldcraftlauncher.cn',
+          label: 'FCL 下载站(非官方)',
+          position: 'left',
+        },
+        {
+          to: '/about',
+          label: '关于本站',
+          position: 'left',
+        },
+        {
+          to: '/blog',
+          label: '更新内容',
           position: 'left',
         },
       ],

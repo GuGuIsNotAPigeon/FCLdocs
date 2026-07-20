@@ -5,7 +5,8 @@ sidebar_position: 1
 ---
 
 import AboutSite from '@site/src/components/AboutSite';
+import AboutBackButton from '@site/src/components/AboutBackButton';
+
+<AboutBackButton />
 
 <AboutSite />
-
-

@@ -4,6 +4,9 @@ sidebar_position: 2
 ---
 
 import ContributorCard from '@site/src/components/ContributorCard';
+import AboutBackButton from '@site/src/components/AboutBackButton';
+
+<AboutBackButton />
 
 # 👥 贡献者名单
 

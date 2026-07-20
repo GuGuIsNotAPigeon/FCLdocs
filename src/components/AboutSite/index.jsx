@@ -248,7 +248,7 @@ export default function AboutSite() {
           <p style={descStyle}>
             欢迎来到 Minecraft Java 的世界！愿你在这里收获快乐与创造。
           </p>
-          <Link to="/docs/关于本站/给新人的话" style={buttonStyle}>
+          <Link to="/about/MessageforNewPlayers" style={buttonStyle}>
             查看祝福
           </Link>
         </div>
@@ -261,7 +261,7 @@ export default function AboutSite() {
           <p style={descStyle}>
             感谢以下小伙伴的无私付出，让本教程变得更好！
           </p>
-          <Link to="/docs/关于本站/贡献者名单" style={buttonStyle}>
+          <Link to="/about/contributors" style={buttonStyle}>
             查看名单 →
           </Link>
         </div>
@@ -322,7 +322,7 @@ export default function AboutSite() {
           <p style={descStyle}>
             查看最近更新内容，了解我们做了什么
           </p>
-          <Link to="/docs/changelog" style={linkStyle}>
+          <Link to="/blog/changelog" style={linkStyle}>
             查看更新 →
           </Link>
         </div>
